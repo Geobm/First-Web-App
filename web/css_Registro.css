@@ -1,0 +1,88 @@
+body {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    width: 100%;
+    color: #132639;
+}
+
+.contenedor {
+  margin: auto;
+  text-align: center;
+
+}
+
+
+div.Registro_usuario {
+    background-color: lightgrey;
+    width: 500px;
+    border: 25px solid black;
+    padding: 25px;
+    margin: auto;
+}
+
+div.photo{
+  text-align: center;;
+}
+
+label {
+    text-align: center;
+    font-weight: normal;
+    font-size: medium;
+}
+
+input:hover{
+    border-color: #ecf2f9;
+}
+
+input.datos {
+    width: 175px;
+}
+
+input.seleccion {
+    width: auto;
+}
+
+input.botones {
+    width: 100px;
+
+}
+
+table{
+    width: 300px;
+    padding: 35px;
+    background-color: #ecf2f9;
+}
+
+th {
+   text-align: center;
+   border-bottom: thin dashed;
+}
+
+td {
+    text-align: center;
+    border: thin dashed;
+}
+
+/*Link sin visitar*/
+a:link {
+    color: #132639;
+    text-decoration: underline;
+}
+
+/*Link visitado*/
+a:visited{
+    color: #132639;
+    text-decoration: underline;
+}
+
+/*Mouse sobre el link*/
+a:hover {
+    color: lightslategray;
+    text-decoration: none;
+}
+
+/*Link en el momento que es clicked*/
+a:active{
+    color: lightslategray;
+    text-decoration: none;
+}
+
